@@ -92,7 +92,7 @@ Test case: After `stackView` `spacing` has been changed `+30pt`:
 #### Example 2:
 ```
 func testMainScreenInDarkMode() throws {
-  // Given - stab the current user interface.
+  // Given - stub the current user interface.
   let app = XCUIApplication()
   app.launch(interfaceStyle: .dark)
   //
@@ -119,13 +119,13 @@ By default, the `tolerance` value is `0`, meaning `CornSnapshotTesting` framewor
 If you use the `CI` tool to run tests, you may have a difference in the image quality between devices.
 Therefore, I would recommend using a higher `tolerance` value (for instance `0.25`).
 
-### `higlighterColor`
+### `highlighterColor`
 ```
-CornSnapshotConfiguration.current.higlighterColor = .yellow
+CornSnapshotConfiguration.current.highlighterColor = .yellow
 ```
 
 The color used by the difference image to highlight the areas of difference between the two snapshots.
-By default `higlighterColor` is `red`.
+By default `highlighterColor` is `red`.
 
 ## Important
 To replace the reference image remove the previous one and run the test once more.
@@ -171,4 +171,4 @@ Your support has made this project happen.
 
 > Blog [popcornomnom.com](http://www.popcornomnom.com) &nbsp;&middot;&nbsp;
 > GitHub [@popcornomnom](https://github.com/popcornomnom) &nbsp;&middot;&nbsp;
-> Linkedin [@popcornomnom](https://linkedin.com/popcornomnom)
+> Linkedin [@popcornomnom](https://www.linkedin.com/in/popcornomnom/)
