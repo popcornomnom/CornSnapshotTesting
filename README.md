@@ -133,8 +133,6 @@ To replace the reference image remove the previous one and run the test once mor
 ## How to check failed tests
 
 You can find a reference, actual and difference images in failed test artifacts. The image similarity factor is also available in the corresponding test results.
-![error message](Resources/error-message.png)
-
 
 #### Name structure of the snapshot:
 ```
